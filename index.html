@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DIRTY - BOT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/922530727499812914/924023128047382529/f4a6815fc6281bcd21e3865f59f7bc58.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+<ul class="mobmen" id="mymobmen">
+  <li><span class="nav1"><img src="https://cdn.discordapp.com/attachments/922530727499812914/924023128047382529/f4a6815fc6281bcd21e3865f59f7bc58.png"> DIRTY</span></li>
+  <li><a href="index.html" style="font:normal 30px Cookie,cursive;"><span class="nav"><i class="fa fa-home"></i> Anasayfa</span></a></li>
+  <li><a href="komutlar.html" style="font:normal 30px Cookie,cursive;"><span class="nav"><i class="fas fa-code"></i> Komutlar</span></a></li>
+  <li><a href="#" style="font:normal 30px Cookie,cursive;"><span class="nav"><i class="fas fa-rocket"></i> Davet Et</span></a></li>
+  <li><a href="#" style="font:normal 30px Cookie,cursive;"><span class="nav"><i class="fas fa-globe"></i> Destek Sunucusu</span></a></li>
+  <li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="ackapa()">&#9776;</a>
+  </li>
+</ul>
+<div class="bot">
+   <div class="botpp">
+     <a href="https://cdn.discordapp.com/attachments/922530727499812914/924023128047382529/f4a6815fc6281bcd21e3865f59f7bc58.png"><img src="https://cdn.discordapp.com/attachments/922530727499812914/924023128047382529/f4a6815fc6281bcd21e3865f59f7bc58.png"></a>
+   </div>
+   <div class="bkz">
+     <h1>DIRTY</h1>
+     <h4>DIRTY hızlı, güvenli ve muhteşem'dir.</h4>
+   </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer-distributed">
+
+      <div class="footer-right">
+
+        <a href="#" id="discord"><i class="fab fa-discord"></i></a>
+        <a href="#" id="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" id="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="#" id="github"><i class="fab fa-github"></i></a>
+        <a href="#" id="youtube"><i class="fab fa-youtube"></i></a>
+        <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="footer-left">
+
+        <p class="footer-links">
+          <a class="link-1" href="#">Anasayfa</a>
+          <a href="#">Hakkında</a>
+          <a href="#">SSS</a>
+        </p>
+
+        <p>Codetron &copy; <b>2021-</b><b id="yil"></b></p>
+      </div>
+
+    </footer>
+  </body>
+  <script type="text/javascript">
+
+function ackapa() {
+    var ac = ac + 1;
+    var x = document.getElementById("mymobmen");
+    if (x.className === "mobmen") {
+        x.className += " responsive";
+    } else {
+        x.className = "mobmen";
+    }
+}
+document.getElementById("yil").innerHTML = new Date().getFullYear();
+</script>
+</html>
